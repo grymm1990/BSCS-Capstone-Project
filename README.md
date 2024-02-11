@@ -34,17 +34,10 @@ https://youtu.be/8deYG7kNByo
 **Course Outcome Exemplified: #4 - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
 Exemplification of this outcome is accomplished via the targeted implementation of a computer solution to the goal specified by the purpose of the program. Well-founded techniques were employed to do so, including the use of header and source files, formatted and standardized code and code structures. Individual functional components were abstracted out to human-readable functions, allowing the program’s sequence of events to be more self-evident. This facilitates future development and interpretation by future developers responsible for maintenance and improvements.
 **How artifact was improved:**
-
-The major class of BinarySearchTree was broken out to its own source and header files. 
-
-The required structs of Node and Course were also relocated to the BinarySearchTree source file for proximal use.
-
-An additional class titled AdvisingProgram was created. All ancillary functions for the program were relocated here. Additionally, a main function titled executeProgram() was created to encompass the primary program loop. The remaining functionality in the primary source file has been reduced down to initial argument parsing, instantiation of the AdvisingProgram object, and execution of the main function.
-
-In order to further break down the main loop, the function of SearchAndPrintCourse() was added and the associated code was extracted.
-
-Library inclusions for the program were relocated to the baseline location requiring them. Any subsequent locations where these libraries are referenced are able to pull them via inclusion of the primary file.
-
+- The major class of BinarySearchTree was broken out to its own source and header files. The required structs of Node and Course were also relocated to the BinarySearchTree source file for proximal use.
+- An additional class titled AdvisingProgram was created. All ancillary functions for the program were relocated here. Additionally, a main function titled executeProgram() was created to encompass the primary program loop. The remaining functionality in the primary source file has been reduced down to initial argument parsing, instantiation of the AdvisingProgram object, and execution of the main function.
+- In order to further break down the main loop, the function of SearchAndPrintCourse() was added and the associated code was extracted.
+- Library inclusions for the program were relocated to the baseline location requiring them. Any subsequent locations where these libraries are referenced are able to pull them via inclusion of the primary file.
 By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand. 
 
 **Reflection**
