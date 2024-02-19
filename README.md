@@ -38,8 +38,7 @@ Exemplification of this outcome is accomplished via the targeted implementation 
 - An additional class titled AdvisingProgram was created. All ancillary functions for the program were relocated here. Additionally, a main function titled executeProgram() was created to encompass the primary program loop. The remaining functionality in the primary source file has been reduced down to initial argument parsing, instantiation of the AdvisingProgram object, and execution of the main function.
 - In order to further break down the main loop, the function of SearchAndPrintCourse() was added and the associated code was extracted.
 - Library inclusions for the program were relocated to the baseline location requiring them. Any subsequent locations where these libraries are referenced are able to pull them via inclusion of the primary file.
-By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand. 
-<br>
+By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand.<br>
 **Reflection**<br>
 I found the refactoring process to be highly rewarding. While I had a certain sense of cleanliness initially building the program as one file, this excluded the prospects of enhancement or refactoring at the time. With that mechanism in place, the new code is much more organized. Not only do I find the new structure easier to visualize, the groundwork is now laid for the other enhancements pending on this artifact.<br>
 Major challenges encountered during the refactoring included language-specific requirements for class structures and the use of pointers and references in a few new locations to facilitate functional operation.<br>
@@ -65,7 +64,7 @@ Boolean value “enabled” was added to the Course struct to allow courses to b
 The function for loading data from a CSV file has been modified to check for the existence of a Course ID prior to insertion into the BST. This ensures that no duplicate Course ID’s are inserted while allowing the individual addition of courses to occur before or after the bulk data insertion of this function.<br>
 Execution timers/tick counters added to the following functions:
 - Printing of full course list
-- Printing of individual courses
+- Printing of individual courses<br>
 **Course Validation**
 - **Optimization:** with these timers added, evaluation of the efficiency and execution time of the program and its various functions is possible. The bulk course list CSV file was augmented to a total of 100 courses, the functionality was executed and the results analyzed. This produced execution times at worst directly proportional to the data size, with the longest execution taking 0.1 seconds or 99 ticks when running the full Course Validation function. This function is recursive through the list of courses in the BST as well as performing a search through the BST for each prerequisite of each course, providing the highest amount of computational demand currently offered. Such results show promise; considering that the course list for a given institution is unlikely to exceed a few thousand, expected maximum search times of a few seconds is reasonable.
 - **Time Complexity:** All functions were produced with time complexities equal to or better than linear. Both functions that necessitated iteration through the entire list of courses are linear, while all others were logarithmic. The ValidateAllCourses() function is the exception, utilizing a logarithmic time inner function to search for the given prerequisites wrapped in a linear time function to fully iterate the course BST.
