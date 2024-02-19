@@ -39,6 +39,7 @@ Exemplification of this outcome is accomplished via the targeted implementation 
 - In order to further break down the main loop, the function of SearchAndPrintCourse() was added and the associated code was extracted.
 - Library inclusions for the program were relocated to the baseline location requiring them. Any subsequent locations where these libraries are referenced are able to pull them via inclusion of the primary file.
 By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand.<br><br>
+
 **Reflection**<br>
 I found the refactoring process to be highly rewarding. While I had a certain sense of cleanliness initially building the program as one file, this excluded the prospects of enhancement or refactoring at the time. With that mechanism in place, the new code is much more organized. Not only do I find the new structure easier to visualize, the groundwork is now laid for the other enhancements pending on this artifact.<br>
 Major challenges encountered during the refactoring included language-specific requirements for class structures and the use of pointers and references in a few new locations to facilitate functional operation.<br>
@@ -76,15 +77,10 @@ List of new class functions:
 - AdvisingProgram::addCourse()
 - AdvisingProgram::toggleCourse()
 By performing the actions above, the resulting program exemplifies the design and evaluation of computing solutions that solve a given problem. Trade-offs for functionality versus complexity have been managed, and the overall program is more capable with no loss to efficiency or performance.<br><br>
+
 **Reflection**<br>
 Successful feature addition is always an enjoyable experience. While this particular development cycle did necessitate overcoming a few hurdles, none were insurmountable or overtly cumbersome and primarily revolved around language syntax mistakes. No major challenges were noted.
 The result of this phase has been a greater appreciation for planning and preparation prior to execution of development; the fact that this stage went well can be primarily attributed to these acts.
-
-
-
-
-
-
 
 --------------------------------------------------------------------------------------------------
 5. ENHANCEMENT 3: Databases
