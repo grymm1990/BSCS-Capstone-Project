@@ -123,5 +123,5 @@ Exemplification of this outcome is accomplished via implementation of a credenti
 
 By performing the actions above, the resulting program utilizes a database to store relevant data in a secure location as well as implementing more advanced relational database functions such as primary and secondary keys. Access is controlled by way of database credentials that could be managed by a Database Administrator or an external security program, and protection against the most likely avenue of malicious attack (SQL injections) is provided.<br><br>
 
-**Reflection**<br>
+**REFLECTION**<br>
 Establishment of a new MySQL database instance was a valuable experience. While I’ve worked with MSSQL databases professionally, establishing a new one is a rare occurrence in my daily work. While I did encounter some OS-oriented issues during implementation, I was able to overcome these with research into the process and the official documentation provided by MySQL.  The process was both educational and enjoyable. 
