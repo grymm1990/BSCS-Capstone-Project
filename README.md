@@ -86,4 +86,42 @@ Successful feature addition is always an enjoyable experience. While this partic
 The result of this phase has been a greater appreciation for planning and preparation prior to execution of development; the fact that this stage went well can be primarily attributed to these acts.
 
 --------------------------------------------------------------------------------------------------
-5. ENHANCEMENT 3: Databases
+**5. ENHANCEMENT 3: Databases**
+
+**ARTIFACT SELECTION**
+- **Artifact:** ABCU Advising Program
+- **Description:** This program provides course list storage for the CS department at ABCU (fictional) to assist with admissions and administrative functions.
+- **Justification:**  This artifact was included for the opportunity it provided for holistic application development and iterative improvement. As a complete application with all code available and minimal external library dependency, exercises in improvement would be easily comprehensible and understandable. In addition, this program originally had no database structure or associated access logic, providing an excellent stage for building this component from the ground up.<br>
+
+**PROCESS**<br>
+**Course Outcome Exemplified: #5 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**<br>
+Exemplification of this outcome is accomplished via implementation of a credential-based access gateway to the program and storage of all program data within a MySQL database. Credentials are not stored anywhere in the program; instead, the MySQL database authentication is utilized. The use input is also obfuscated using ‘*’ characters as they type in their password. Additionally, all MySQL queries are handled using query execution functions included in the MySQL C++ Connector libraries. This protects the program against potential SQL injection attacks.<br><br>
+
+**How artifact was improved:**
+- MySQL database integration was added to the program, providing an external means of data storage as well as leveraging the database’s credential mechanism for program access. 
+- Database structure:
+  - Schema: course_database
+  - Tables:
+    - courses
+      - id INT NOT NULL AUTO_INCREMENT
+      - course_id VARCHAR(50)
+      - description VARCHAR(100)
+      - PRIMARY KEY(id)
+    -prerequisites
+      - id INT NOT NULL AUTO_INCREMENT
+      - course_id INT
+      - prerequisite_id INT
+      - PRIMARY KEY(id)
+      - FOREIGN KEY course_id REFERENCES courses(id)
+      - FOREIGN KEY prerequisite_id REFERENCES courses(id)<br><br>
+
+**Altered functions:**<br>
+- **Main program:** the main() function was augmented with an additional subfunction getDBConnection() that prompts the user for their access credentials. It then uses these credentials to establish the connection with the local MySQL database. Failure of this mechanism precludes execution of the program entirely.
+- **LoadCourses():** Loading of the active memory data structure has been changed from CSV file parsing to pulling course data from the database. This is done via two queries: all courses are first loaded from the course table, then prerequisites are set based on the associated table. This function also includes a clearing of the Binary Search Tree (BST) data structure upon each execution to promote a single-source-of-truth paradigm.
+- AddCourses() now employs two additional validations. First, the course to be added is passed into a check against the courses table in the database. If found, execution is interrupted. The same check is done with each entered prerequisite, except the inverse verification is done to ensure the course does exist. Finally, once an entry is confirmed by the user, the new course and prerequisite entries are inserted into the database along with the BST.
+- A new supporting function getNode() has been added to the BinarySearchTree. This returns a Node pointer, allowing the prerequisites of a Course in the BST to be updated in the LoadCourses() function.<br><br>
+
+By performing the actions above, the resulting program utilizes a database to store relevant data in a secure location as well as implementing more advanced relational database functions such as primary and secondary keys. Access is controlled by way of database credentials that could be managed by a Database Administrator or an external security program, and protection against the most likely avenue of malicious attack (SQL injections) is provided.<br><br>
+
+**Reflection**<br>
+Establishment of a new MySQL database instance was a valuable experience. While I’ve worked with MSSQL databases professionally, establishing a new one is a rare occurrence in my daily work. While I did encounter some OS-oriented issues during implementation, I was able to overcome these with research into the process and the official documentation provided by MySQL.  The process was both educational and enjoyable. 
