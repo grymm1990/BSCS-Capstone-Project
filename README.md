@@ -56,6 +56,7 @@ The result of execution has been a deeper understanding of the language used (C+
 **PROCESS**<br>
 **Course Outcome Exemplified: #3 - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**<br>
 Exemplification of this outcome is accomplished via utilization of new purpose-built algorithms as well as the integration of existing logic within the program. Utilizing the concepts of abstraction and modularity, well-defined functions are created which support implementation of the intended functions while minimizing duplication of code or obfuscation of code functionality. Given that some functions would be redundant, overly convoluted or run contrary to the original purpose of the program, any function that fits these descriptors was not included, thereby exemplifying the management of trade-offs.<br><br>
+
 **How artifact was improved:**<br>
 Three new functions were added to the main menu of the program: 
 - Add Course: This function allows the insertion of individual courses to the BST in active memory by defining the Course ID, Description, and Prerequisite Courses. Validation logic is included to preclude the insertion of Course ID’s already present in the tree utilizing existing search functionality. 
@@ -72,11 +73,12 @@ Execution timers/tick counters added to the following functions:
 - **Optimization:** with these timers added, evaluation of the efficiency and execution time of the program and its various functions is possible. The bulk course list CSV file was augmented to a total of 100 courses, the functionality was executed and the results analyzed. This produced execution times at worst directly proportional to the data size, with the longest execution taking 0.1 seconds or 99 ticks when running the full Course Validation function. This function is recursive through the list of courses in the BST as well as performing a search through the BST for each prerequisite of each course, providing the highest amount of computational demand currently offered. Such results show promise; considering that the course list for a given institution is unlikely to exceed a few thousand, expected maximum search times of a few seconds is reasonable.
 - **Time Complexity:** All functions were produced with time complexities equal to or better than linear. Both functions that necessitated iteration through the entire list of courses are linear, while all others were logarithmic. The ValidateAllCourses() function is the exception, utilizing a logarithmic time inner function to search for the given prerequisites wrapped in a linear time function to fully iterate the course BST.<br><br>
 
-List of new class functions:
+**List of new class functions:**
 - BinarySearchTree::ToggleCourse()
 - BinarySearchTree::ValidateAllCourses() (includes recursive function overload)
 - AdvisingProgram::addCourse()
-- AdvisingProgram::toggleCourse()
+- AdvisingProgram::toggleCourse()<br><br>
+
 By performing the actions above, the resulting program exemplifies the design and evaluation of computing solutions that solve a given problem. Trade-offs for functionality versus complexity have been managed, and the overall program is more capable with no loss to efficiency or performance.<br><br>
 
 **Reflection**<br>
