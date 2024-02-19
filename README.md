@@ -107,7 +107,7 @@ Exemplification of this outcome is accomplished via implementation of a credenti
       - course_id VARCHAR(50)
       - description VARCHAR(100)
       - PRIMARY KEY(id)
-    -prerequisites
+    - prerequisites
       - id INT NOT NULL AUTO_INCREMENT
       - course_id INT
       - prerequisite_id INT
