@@ -62,7 +62,8 @@ Three new functions were added to the main menu of the program:
 - Disable/Enable Course: This function allows the user to search for an existing Course ID and toggle the new “enabled” parameter in the Course data structure.
 - Run Course Validation: This function iterates through the entire BST, validating that each prerequisite of each course is present and enabled using the preexisting Search functionality.. Any exceptions to this are noted.
 Boolean value “enabled” was added to the Course struct to allow courses to be disabled at will without affecting the active memory data structure (future work with Database inclusion may facilitate a rebuilding of the BST if and when appropriate).
-The function for loading data from a CSV file has been modified to check for the existence of a Course ID prior to insertion into the BST. This ensures that no duplicate Course ID’s are inserted while allowing the individual addition of courses to occur before or after the bulk data insertion of this function.<br>
+The function for loading data from a CSV file has been modified to check for the existence of a Course ID prior to insertion into the BST. This ensures that no duplicate Course ID’s are inserted while allowing the individual addition of courses to occur before or after the bulk data insertion of this function.<br><br>
+
 Execution timers/tick counters added to the following functions:
 - Printing of full course list
 - Printing of individual courses<br><br>
