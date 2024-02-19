@@ -38,7 +38,7 @@ Exemplification of this outcome is accomplished via the targeted implementation 
 - An additional class titled AdvisingProgram was created. All ancillary functions for the program were relocated here. Additionally, a main function titled executeProgram() was created to encompass the primary program loop. The remaining functionality in the primary source file has been reduced down to initial argument parsing, instantiation of the AdvisingProgram object, and execution of the main function.
 - In order to further break down the main loop, the function of SearchAndPrintCourse() was added and the associated code was extracted.
 - Library inclusions for the program were relocated to the baseline location requiring them. Any subsequent locations where these libraries are referenced are able to pull them via inclusion of the primary file.
-By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand.<br>
+By performing the actions above, the resulting code base is organized, more modular, and easier to interpret and understand.<br><br>
 **Reflection**<br>
 I found the refactoring process to be highly rewarding. While I had a certain sense of cleanliness initially building the program as one file, this excluded the prospects of enhancement or refactoring at the time. With that mechanism in place, the new code is much more organized. Not only do I find the new structure easier to visualize, the groundwork is now laid for the other enhancements pending on this artifact.<br>
 Major challenges encountered during the refactoring included language-specific requirements for class structures and the use of pointers and references in a few new locations to facilitate functional operation.<br>
