@@ -1,7 +1,8 @@
 # grymm1990.github.io
 
-**OVERVIEW/SUMMARY**
+**OVERVIEW/SUMMARY**<br>
 The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, speicifcally encompassing enhancements to work completed earlier in the program.
+
 --------------------------------------------------------------------------------------------------
 **TABLE OF CONTENTS**
 1. Professional Self-Assessment
@@ -16,10 +17,10 @@ The following is my conduct of the Capstone for the SNHU Computer Science progra
 
 **Introduction**
 My choice to enroll in the Computer Science program was driven by a number of things. First, my love of technology in general and computers specifically established a healthy level of base interest. Second, its application to my current work as a Controls Engineer gave a utility-based argument to seeing it through to the end; this would mean both enhancing my skill set from a functional perspective as well as enhancing my resume to prospective future employers. Third, realization of my dreams of working in software development and possibly video game development would necessitate this stepstone. These factors combined have given me great motivation towards completion of the program and ensuring I gather all I could from the experience.<br>
-    When I entered the CS program at SNHU, I possessed a fair bit of knowledge and experience with computer science and other peripheral fields such as machine controls and robotics, as well as experience in a few programming languages. This gave me a sense of comfortability as I started each course, especially in the early stages. Even though the amount of new knowledge I gained in these first courses was rather minimal, it helped to solidify my confidence with each topic. As I progressed into more complex subject matter, I began to add new skills and understandings that were built upon the earlier subjects. This sense of progression was a very satisfying experience and gave a wider breadth of visibility into the field. As more and more topics were covered, the big picture of software architectures, environments, and implementations began to take shape.<br><br>
-    **Personal Strengths**<br>
-    This understanding of the big picture and how the various elements of software are connected is what I see as my greatest strength thus far. While I have more experience and knowledge in certain aspects such as database utilization or code structures, I believe the greatest value long-term is to understand how a piece of software will live in the real world and in real application. When learning a new subject (especially one that interests or fascinates me), I tend to drive down to the base principles, gathering structural understanding on the way. This idea of “First Principles” is not a new one, but I have found it to have great utility and value.<br>
-    By understanding how all elements are connected, diagnosing and troubleshooting issues becomes much easier. It also allows improvements to be made to existing systems and facilitates the implementation of new features or connections to other applications.<br>
+When I entered the CS program at SNHU, I possessed a fair bit of knowledge and experience with computer science and other peripheral fields such as machine controls and robotics, as well as experience in a few programming languages. This gave me a sense of comfortability as I started each course, especially in the early stages. Even though the amount of new knowledge I gained in these first courses was rather minimal, it helped to solidify my confidence with each topic. As I progressed into more complex subject matter, I began to add new skills and understandings that were built upon the earlier subjects. This sense of progression was a very satisfying experience and gave a wider breadth of visibility into the field. As more and more topics were covered, the big picture of software architectures, environments, and implementations began to take shape.<br><br>
+**Personal Strengths**<br>
+This understanding of the big picture and how the various elements of software are connected is what I see as my greatest strength thus far. While I have more experience and knowledge in certain aspects such as database utilization or code structures, I believe the greatest value long-term is to understand how a piece of software will live in the real world and in real application. When learning a new subject (especially one that interests or fascinates me), I tend to drive down to the base principles, gathering structural understanding on the way. This idea of “First Principles” is not a new one, but I have found it to have great utility and value.<br>
+By understanding how all elements are connected, diagnosing and troubleshooting issues becomes much easier. It also allows improvements to be made to existing systems and facilitates the implementation of new features or connections to other applications.<br>
 Possessing an attention to detail and the willpower to realize full, in-depth understandings has provided me with many opportunities and success in my professional endeavors; the CS program has only validated these attributes and emboldened me to continue with their development. In addition, it has emboldened my existing values of honesty and forthrightness in my life as a whole. When implemented, these values allow for the most optimal development of a person, an organization, or any project undertaken by either; the lack of either only detracts from forward progress and achievement.<br>
 <br>
 **Education, Implementation and Realization**<br>
@@ -39,7 +40,7 @@ Given the solitary nature of this capstone, it may be assumed that completion of
 <br>
 **Course Outcome #2 Exemplification: Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**<br>
 Exemplification of this outcome is done through composition of both this self-assessment as well as the code review and enhancement narratives below. While in this case the target audience is more technical in nature, the same endeavor could readily be undertaken with a less-technical audience in mind.<br>
-<br>
+
 --------------------------------------------------------------------------------------------------
 **2. CODE REVIEW**
 <a href="https://youtu.be/8deYG7kNByo">Youtube - Code Review</a>
