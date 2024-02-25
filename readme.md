@@ -1,7 +1,10 @@
 # grymm1990.github.io
 
 **OVERVIEW/SUMMARY**<br>
-The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, speicifcally encompassing enhancements to work completed earlier in the program.
+The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, speicifcally encompassing enhancements to work completed earlier in the program. This begins with a professional self-assessment of personal experience in the program, skills gained, and prospects for future professional work. This is followed with a narrated code
+review showcasing the initial state of the code. Finally, each enhancement is undertaken in turn, narration of which is provided here in text form.<br>
+The initial code state and the enhanced version can be found within the repository for this page in the following link:<br>
+<a href="https://github.com/grymm1990/grymm1990.github.io/">Code Repository</a>
 
 --------------------------------------------------------------------------------------------------
 **TABLE OF CONTENTS**
