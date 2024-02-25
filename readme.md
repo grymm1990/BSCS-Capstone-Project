@@ -2,7 +2,7 @@
 
 **OVERVIEW/SUMMARY**<br>
 The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, speicifcally encompassing enhancements to work completed earlier in the program. This begins with a professional self-assessment of personal experience in the program, skills gained, and prospects for future professional work. This is followed with a narrated code
-review showcasing the initial state of the code. Finally, each enhancement is undertaken in turn, narration of which is provided here in text form.<br>
+review showcasing the initial state of the code. Finally, each enhancement is undertaken in turn, narration of which is provided here in text form.<br><br>
 The initial code state and the enhanced version can be found within the repository for this page in the following link:<br>
 <a href="https://github.com/grymm1990/grymm1990.github.io/">Code Repository</a>
 
@@ -18,7 +18,7 @@ The initial code state and the enhanced version can be found within the reposito
 --------------------------------------------------------------------------------------------------
 **1. PROFESSIONAL SELF-ASSESSMENT**
 
-**Introduction**
+**Introduction**<br>
 My choice to enroll in the Computer Science program was driven by a number of things. First, my love of technology in general and computers specifically established a healthy level of base interest. Second, its application to my current work as a Controls Engineer gave a utility-based argument to seeing it through to the end; this would mean both enhancing my skill set from a functional perspective as well as enhancing my resume to prospective future employers. Third, realization of my dreams of working in software development and possibly video game development would necessitate this stepstone. These factors combined have given me great motivation towards completion of the program and ensuring I gather all I could from the experience.<br>
 When I entered the CS program at SNHU, I possessed a fair bit of knowledge and experience with computer science and other peripheral fields such as machine controls and robotics, as well as experience in a few programming languages. This gave me a sense of comfortability as I started each course, especially in the early stages. Even though the amount of new knowledge I gained in these first courses was rather minimal, it helped to solidify my confidence with each topic. As I progressed into more complex subject matter, I began to add new skills and understandings that were built upon the earlier subjects. This sense of progression was a very satisfying experience and gave a wider breadth of visibility into the field. As more and more topics were covered, the big picture of software architectures, environments, and implementations began to take shape.<br><br>
 **Personal Strengths**<br>
