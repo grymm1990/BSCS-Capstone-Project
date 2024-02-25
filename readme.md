@@ -1,10 +1,7 @@
 # grymm1990.github.io
 
 **OVERVIEW/SUMMARY**
-
-
-
-
+The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, speicifcally encompassing enhancements to work completed earlier in the program.
 --------------------------------------------------------------------------------------------------
 **TABLE OF CONTENTS**
 1. Professional Self-Assessment
