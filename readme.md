@@ -1,4 +1,4 @@
-# grymm1990.github.io
+# BSCS-Capstone-Project
 
 **OVERVIEW/SUMMARY**<br>
 The following is my conduct of the Capstone for the SNHU Computer Science program. It consists of exemplification of personal ability within the field of Computer Science, specifically encompassing enhancements to work completed earlier in the program. This begins with a professional self-assessment of personal experience in the program, skills gained, and prospects for future professional work. This is followed with a narrated code
